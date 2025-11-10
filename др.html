@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ХОЧУ АННАНИЛИНГУС</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body {
+      min-height: 100vh;
+      background-image: url('photo_2025-11-10_20-21-31.jpg'); /* "C:\Users\Asus\Downloads\photo_2025-11-10_20-21-31.jpg" */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .label {
+      position: fixed;
+      left: 50%;
+      bottom: 20vh; /* в самом низу экрана */
+      transform: translateX(-50%);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: clamp(28px, 8vw, 96px);
+      color: #fff;
+      text-shadow: 0 4px 24px rgba(0,0,0,.55), 0 1px 0 rgba(0,0,0,.3);
+      user-select: none;
+      white-space: nowrap;
+    }
+    .fade {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      height: 35vh;
+      pointer-events: none;
+      background: linear-gradient(to top, rgba(0,0,0,.35), rgba(0,0,0,0));
+    }
+  </style>
+</head>
+<body>
+  <div class="fade" aria-hidden="true"></div>
+  <div class="label">ХОЧУ АННАНИЛИНГУС</div>
+</body>
+</html>
